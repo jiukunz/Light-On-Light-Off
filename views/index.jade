@@ -1,0 +1,52 @@
+extends layout
+
+block content
+  body
+  .navbar.navbar-inverse.navbar-fixed-top
+    .navbar-inner
+      .container
+        button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href='#') Light On
+        .nav-collapse.collapse
+          ul.nav
+            li.active
+              a(href='#') Home
+            li
+              a(href='#about') About
+            li
+              a(href='#contact') Contact
+        //
+          /.nav-collapse
+    .container
+      h1 Light On System
+      p
+        | Use this document as a way to quick start any new project.
+        br
+        | All you get is this message and a barebones HTML document.
+      div#control
+        .btn-toolbar(style='margin: 0;')
+          .btn-group
+            button.btn 1
+            button.btn 2
+            button.btn 3
+            button.btn 4
+          .btn-group
+            button.btn 5
+            button.btn 6
+            button.btn 7
+            button.btn 8
+
+      div#message
+        p
+
+
+
+
+
+
+
+
+
